@@ -12,7 +12,7 @@
     public class RadiantDamageGear : BaseUnityPlugin
     {
         public const string GUID = "com.ehaugw.radiantdamagegear";
-        public const string VERSION = "3.2.0";
+        public const string VERSION = "4.0.0";
         public const string NAME = "Radiant Damage Gear";
 
         internal void Awake()
