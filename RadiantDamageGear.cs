@@ -79,7 +79,7 @@
 
         public static void ConvertDamageSource(DamageType.Types typeTo, int itemID, DamageType.Types typeFrom)
         {
-            if (GetItem(itemID) is Weapon item)
+            if (GetItem(itemID) is Weapon item && typeTo != typeFrom)
             {
                 var damage = item.Stats.BaseDamage;
                 
